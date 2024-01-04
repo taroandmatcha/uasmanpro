@@ -11,6 +11,5 @@
     // menghilangkan pesan error
     error_reporting(0);
     // panggil session ID
-    $id = $_SESSION['ADMIN']['id_login'];
-    $sesi = $proses->tampil_data_id('tbl_user','id_login',$id);
+
 ?>
